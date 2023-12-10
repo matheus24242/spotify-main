@@ -1,0 +1,91 @@
+/* ~~~~~ Layout ~~~~~ */
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 10px 1650px 380px 10; /* 10px superior, 10px à direita, 0 inferior, 0 à esquerda */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    width: 100%; /* Ou qualquer largura desejada */
+    text-align: center; /* Centraliza horizontalmente */
+    position: absolute;
+    top: 10%; /* Centraliza verticalmente */
+    transform: translateY(-50%);
+    margin: 0; /* Remove a margem padrão do h1 */
+    right: 10px;
+    color: #3498db; /* Cor do texto */
+    font-family: 'Helvetica', sans-serif; /* Fonte personalizada (substitua por uma fonte desejada) */
+    font-size: 2em; /* Tamanho da fonte (ajuste conforme necessário) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+    transition: color 0.3s ease-in-out; /* Transição suave da cor do texto */
+}
+
+h1:hover {
+    color: #e74c3c; /* Cor do texto ao passar o mouse */
+}
+
+
+
+/* ~~~~~ Barra de Pesquisa ~~~~~ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#search-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    text-align: center;
+    padding: 5px;
+    margin-top: auto; /* Isso empurra o footer para a parte inferior */
+    width: 100%;
+}
+
+
+
